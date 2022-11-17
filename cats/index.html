@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Test menu</title>
+    <title>les chats</title>
     <script defer src="https://unpkg.com/alpinejs"></script>
     <style>
       .menu {
@@ -34,7 +34,7 @@
       <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header_menuBtn">
         menu
       </button>
-      <h1>Test de menu</h1>
+      <h1>les chats</h1>
       <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms class="menu">
         <ul>
           <li><a href="#">item 1</a></li>
@@ -68,14 +68,15 @@
 
     <nav>
       <h4>menu</h4>
+      <a href="../index.html">Accueil</a>
       <ul>
-        <li><a href="cats/index.html">Les chats</a>
+        <li><a>Les chats</a>
           <ul>
-            <li><a href="cats/chat-1.html">chat 1</a></li>
+            <li><a href="chat-1.html">chat 1</a></li>
             <li><a href="cats/chat-2.html">chat 2</a></li>
           </ul>
         </li>
-        <li><a href="dogs/index.html"></a>
+        <li><a href="../dogs/index.html"></a>
           <ul>
             <li><a href="dogs/chiens-1.html">chien 1</a></li>
             <li><a href="dogs/chiens-2.html">chien 2</a></li>
@@ -83,6 +84,8 @@
         </li>
       </ul>
     </nav>
+    <img class="media media--fullwidth" src="../public/img/cats/Cat_November_2010-1a.jpg">
+
 
   </body>
 </html>
